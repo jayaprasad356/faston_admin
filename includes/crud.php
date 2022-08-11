@@ -5,7 +5,7 @@
  * @Package Database
  */
 
-define('DOMAIN_URL', 'http://localhost/faston/'); /* chnage to your domain here - don't forget to add forward slash at the end of the URL like this "/" */
+define('DOMAIN_URL', 'http://faston.greymatterworks.in/'); /* chnage to your domain here - don't forget to add forward slash at the end of the URL like this "/" */
 define('ALLOW_MODIFICATION', 1);
 define('JWT_SECRET_KEY', 'jaswik'); /* chnage to your secret key here set it to anything you like*/
 
@@ -19,9 +19,9 @@ class Database
      */
 
     private $db_host = "localhost";  // Change as required
-    private $db_user = "root";  // Change as required
-    private $db_pass = "";  // Change as required
-    private $db_name = "faston";    // Change as required
+    private $db_user = "u743445510_faston";  // Change as required
+    private $db_pass = "Faston@2022";  // Change as required
+    private $db_name = "u743445510_faston";    // Change as required
 
     /*
      * Extra variables that are required by other function such as boolean con variable
